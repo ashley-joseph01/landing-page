@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
 
+    font-family: 'Roboto';
+
     margin: 0px;
     padding: 0px;
 }
@@ -87,16 +89,26 @@ a {
                 font-size: 48px;
                 font-weight: 900;
                 color: #F9FAF8;
+                margin-top: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
 
             }
 
             .sub-text {
                 color: #E5E7EB;
+                margin-top: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
 
             }
 
             .button {
-                display: flex;
+                display: inline-flex;
+                justify-content: flex-start;
+                padding: 10px;
+                margin: 10px;
+                
                 
                 background-color: #3882F6;
 
@@ -107,30 +119,86 @@ a {
             }
 
     .info {
-
-        border: 4px solid lightgreen;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
 
     }
 
+    .info-sub {
+        display: flex;
+        justify-content: space-around;
+
+        margin: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+
+        border: 5px solid pink;
+        
+        
+        
+    }
+
+        .outer-box {
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            border: 5px solid yellow;
+
+        }
+
+        
+
         .second-text {
+            text-align: center;
+            font-size: 24px;
+            margin: 15px;
 
         }
 
         .box {
+            border: 5px solid black;
+            width: 100px;
+            height: 100px;
+
+
 
         }
 
-    .quote {
+        .sub-text2 {
+            
+            border: 5px solid gray;
 
-        border: 4px solid lightslategray;
+        }
+
+
+
+    .quote {
+        
+        background-color: #E5E7EB;
+        text-align: center;
+        padding-top: 50px;        
+        padding-bottom: 50px;        
+        padding-left: 100px;
+        padding-right: 100px;
+
+        
     }
 
         .quote-txt {
-
+            font-size: 36px;
+            padding-bottom: 15px;
         }
 
         .quote-author {
-
+            text-align: right;
+            font-weight: bold;
         }
 
     .action-call {
